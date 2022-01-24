@@ -1,0 +1,122 @@
+body {
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+}
+
+.card {
+    background-color: hsl(216, 50%, 16%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+    height: 480px;
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+    position: absolute;
+    top: 80px;
+    left: 525px;
+
+}
+
+.imagem-cubo {
+    width: 265px;
+    height: 250px;
+    border-radius: 25px;
+    padding: 18px;
+
+}
+
+.titulo {
+    color: rgb(255, 255, 255);
+    text-align: left;
+    margin: -23px 0px 0px 22px;
+    font-size: 16px;
+}
+
+.texto p {
+    color: rgb(112, 128, 150);
+    font-size: 14px;
+
+}
+
+.ETH {
+    color: hsl(178, 100%, 50%);
+    font-size: 13px;
+    margin: 0px 180px 0px 0px;
+
+}
+
+.day {
+    font-size: 13px;
+    color: rgb(133, 148, 167);
+    margin: -20px 0px 0px 190px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.linha {
+    width: 260px;
+    margin: 20px 0px 0px 20px;
+
+}
+
+.by {
+    font-size: 14px;
+    color: rgb(133, 148, 167);
+    margin: 20px 0px 0px -100px;
+
+}
+
+.name {
+    font-size: 14px;
+    color: rgb(209, 209, 209);
+    margin: -18px 0px 50px 72px;
+
+}
+
+.grupo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.icone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.icone span {
+    padding-left: 8px;
+
+}
+
+.day span {
+    padding-left: 4px;
+
+}
+
+h4 {
+    margin-bottom: 0px;
+}
+
+.name:hover {
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+
+}
+
+.titulo b:hover {
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
+
+hr {
+    margin: 20px 0;
+    height: 1.5px;
+    border: none;
+    background-color: hsl(215, 32%, 27%);
+}
